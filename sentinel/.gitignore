@@ -1,0 +1,31 @@
+# Machine Learning
+__pycache__/
+*.pyc
+
+# Model artifacts (if generated locally)
+# Uncomment if you don't want to push trained models
+# *.pkl
+# *.joblib
+
+# Datasets
+# Uncomment if datasets are large or restricted
+# data/raw/
+# data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+myenv/
+.myenv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
