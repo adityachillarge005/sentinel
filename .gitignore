@@ -1,31 +1,174 @@
-# Machine Learning
-__pycache__/
-*.pyc
 
-# Model artifacts (if generated locally)
-# Uncomment if you don't want to push trained models
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# Python packaging
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Testing and coverage
+# ==========================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ==========================================
+# Django
+# ==========================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Documentation
+docs/_build/
+.pybuilder/
+target/
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+myenv/
+.myenv/
+env.bak/
+venv.bak/
+conda-meta/
+
+# ==========================================
+# Machine Learning - Sentinel
+# ==========================================
+
+# Model artifacts: keep tracked models if required by the application
 # *.pkl
 # *.joblib
 
-# Datasets
-# Uncomment if datasets are large or restricted
+# Ignore large or restricted datasets only when appropriate
 # data/raw/
 # data/processed/
 
-# Jupyter
-.ipynb_checkpoints/
+# ==========================================
+# Redis and message brokers
+# ==========================================
+*.rdb
+*.aof
+*.pid
+celerybeat-schedule*
+celerybeat.pid
+mnesia/
+rabbitmq/
+rabbitmq-data/
+activemq-data/
 
-# Environment
-.env
-.venv/
-venv/
-myenv/
-.myenv/
-
-# IDE
-.vscode/
+# ==========================================
+# IDE and editors
+# ==========================================
 .idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
 
+# ==========================================
+# Python tools
+# ==========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+
+# ==========================================
+# Other Python environments and tools
+# ==========================================
+.python-version
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+.pypirc
+.streamlit/secrets.toml
+.abstra/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# ==========================================
 # OS files
+# ==========================================
 .DS_Store
 Thumbs.db
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# SageMath
+*.sage.py
+
+# Translations
+*.mo
+*.pot
